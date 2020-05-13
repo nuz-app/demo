@@ -2,18 +2,17 @@ import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
 const initialState = {
-  lastUpdate: 0,
+  name: null,
   light: false,
   count: 0,
 }
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'TICK':
+    case 'SET_NAME':
       return {
         ...state,
-        lastUpdate: action.lastUpdate,
-        light: !!action.light,
+        name: action.name,
       }
     case 'INCREMENT':
       return {

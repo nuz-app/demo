@@ -1,39 +1,42 @@
+import * as nuz from '@nuz/core'
+
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import Head from 'next/head'
+import dynamic from 'next/dynamic'
 import { withRedux } from '../lib/redux'
-import useInterval from '../lib/useInterval'
-import Clock from '../components/clock'
-import Counter from '../components/counter'
+
+const Navigation = dynamic(
+  () => nuz.resolve('@nuz-demo/navigation'), 
+  { nuz: true },
+)
+const Welcome = dynamic(
+  () => nuz.resolve('@nuz-demo/welcome'), 
+  { nuz: true },
+)
 
 const IndexPage = () => {
-  // Tick the time every second
-  const dispatch = useDispatch()
-  useInterval(() => {
-    dispatch({
-      type: 'TICK',
-      light: true,
-      lastUpdate: Date.now(),
-    })
-  }, 1000)
   return (
     <>
-      <Clock />
-      <Counter />
+      <Head>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+      </Head>
+      <header>
+        <Navigation />
+      </header>
+      <main>
+        <Welcome />
+      </main>
+      <style>{`
+        body {
+          background: #fff;
+          font-family: Lato, sans-serif;
+          font-weight: 400;
+          color: #222;
+        }
+      `}</style>
     </>
   )
-}
-
-IndexPage.getInitialProps = ({ reduxStore }) => {
-  // Tick the time once, so we'll have a
-  // valid time before first render
-  const { dispatch } = reduxStore
-  dispatch({
-    type: 'TICK',
-    light: typeof window === 'object',
-    lastUpdate: Date.now(),
-  })
-
-  return {}
 }
 
 export default withRedux(IndexPage)

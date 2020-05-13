@@ -1,12 +1,14 @@
 {
-  "name": "with-redux",
+  "name": "nuz-demo",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "workspaces": "nuz dev --workspaces './workspaces/*' --port 4000"
   },
   "dependencies": {
+    "@nuz/core": "^1.0.0-beta.20",
     "next": "latest",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
