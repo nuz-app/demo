@@ -18,6 +18,8 @@ const IndexPage = () => {
   return (
     <>
       <Head>
+        <title>Demo website using Nuz</title>
+        <meta name="description" content="Demo features of Nuz project in production mode" />
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet" />
       </Head>

@@ -12,6 +12,7 @@ const { App } = nuz.reactHelpersFactory({
 })
 
 nuz.bootstrap({
+  registry: 'nuz-demo',
   ssr: true,
   // Link only run on development mode
   linked: {
@@ -25,7 +26,9 @@ nuz.bootstrap({
     'next/link': Link,
     'next/dynamic': dynamic,
   },
-  preload: ['navigation'],
+  preload: [
+    '@nuz-demo/navigation',
+  ],
 })
 
 function MyApp({ Component, pageProps }) {
