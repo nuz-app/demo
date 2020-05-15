@@ -3,7 +3,6 @@ import * as nuz from '@nuz/core'
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import { withRedux } from '../lib/redux'
 
 const Navigation = dynamic(
   () => nuz.resolve('@nuz-demo/navigation'), 
@@ -41,4 +40,11 @@ const IndexPage = () => {
   )
 }
 
-export default withRedux(IndexPage)
+
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
+}
+
+export default IndexPage

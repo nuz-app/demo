@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 
+import { withRedux } from '../lib/redux'
+
 const { App } = nuz.reactHelpersFactory({
   React,
   ReactDOM,
@@ -39,4 +41,5 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+
+export default withRedux(MyApp)
