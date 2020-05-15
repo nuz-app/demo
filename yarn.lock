@@ -955,13 +955,13 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.4.0.tgz#6f8732e1909fb12f6dca8a82b7fc4b79c6c8cfcd"
   integrity sha512-AaEC/diS2two2JLsEItGhuAux8UfPo0o34/7l1SIw0t4SYunUYJsxM/Y55OR2ljiVn9ffKR1n1U9IEQhsK80jw==
 
-"@nuz/core@^1.0.0-beta.22":
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.22.tgz#879aa9a84976dd11968b1018b35be2128eb6e775"
-  integrity sha512-Z5psW3iwt9oSYOvRBAiqOpzrL2X92bWpqbdCTpTtVPb2yVI+D4O/RdKz5ijW2nvdS6WN4ioWySyQsFSm+bvpeA==
+"@nuz/core@^1.0.0-beta.23":
+  version "1.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.23.tgz#833537c33c78eb9a4cbf5408df12795a64bf95e5"
+  integrity sha512-PWfQDY7gh5D72qwZuOYFH73rjBbr487EzRXaLvWqAgMXVywIdnEXB9oo6waWQ+OFakQSDZcCxEYdojYJPrJfJQ==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.22"
-    "@nuz/utils" "^1.0.0-beta.22"
+    "@nuz/shared" "^1.0.0-beta.23"
+    "@nuz/utils" "^1.0.0-beta.23"
     abort-controller "^3.0.0"
     cross-fetch "^3.0.4"
     lru-cache "^5.1.1"
@@ -971,19 +971,19 @@
     umitt "^0.1.2"
     yargs "^15.1.0"
 
-"@nuz/shared@^1.0.0-beta.22":
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.22.tgz#ede67e0072ae8cc94b68d0e25f3068147a6b89bb"
-  integrity sha512-xQIP5VL4fZ/3zq/jM0A/9btvbSZ6F2DJ9FBPXg5S90UAdfqGcZtCA6qs/Z3+S/SJsGZSIs9Rg5seuK9ey2SSAw==
+"@nuz/shared@^1.0.0-beta.23":
+  version "1.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.23.tgz#dfa038396028c7bf15be7c3aab09726d71655214"
+  integrity sha512-/mM1C+wwFCoGs4XR92Xjp/tQF0ZINmpKKEr4wBOmcp+b0Jf/l16ULiWnuWbfSQ0vMYFFjHP0fn0IpGksgYH3kg==
   dependencies:
     tslib "^1.11.1"
 
-"@nuz/utils@^1.0.0-beta.22":
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.22.tgz#5df3605026a207befdb432b25e51fbf4d8db6f38"
-  integrity sha512-SdlllC9+8ayquYCqJpVoAGksyoeWh1CIzaNmJIslQDAilnDUcRCpP/pH/38UvylFwZZtqpmCX776nQqhK65cxg==
+"@nuz/utils@^1.0.0-beta.23":
+  version "1.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.23.tgz#bcf1bf94df9a69c418fa82b55367721aa185599e"
+  integrity sha512-AXhOKXVZUFwyJx9c+nevdj2x7yDQPtUtFucHFwK0KNT+Tl9b+/9kVVHGUDD1cTDqUzMOw2vVLwZQdYnvcHhPdA==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.22"
+    "@nuz/shared" "^1.0.0-beta.23"
     axios "^0.19.2"
     qs "^6.9.4"
     selfsigned "^1.10.7"
