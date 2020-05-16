@@ -1,6 +1,6 @@
 {
   "name": "@nuz-demo/welcome",
-  "version": "0.1.16",
+  "version": "0.1.18",
   "source": "src/index.jsx",
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",

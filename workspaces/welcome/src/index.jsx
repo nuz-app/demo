@@ -33,7 +33,9 @@ const Module = () => {
       <div className={styles.container}>
         <div className={styles.card}>
           <h3 className={styles.name}>Hello, {name}.</h3>
-          <h4 className={styles.description}>Welcome to @nuz-demo</h4>
+          <h4 className={styles.description}>
+            Welcome to @nuz-demo. This is module @nuz-demo/welcome
+          </h4>
           {component || (
             <div onClick={loadComponent} className={styles.button}>
               Click to lazy-load content there!
@@ -43,7 +45,7 @@ const Module = () => {
         <Box />
       </div>
     </div>
-  )
+  );
 }
 
 export default Module
