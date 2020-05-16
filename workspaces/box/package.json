@@ -1,8 +1,9 @@
 {
   "name": "@nuz-demo/box",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "source": "src/index.jsx",
   "main": "dist/index.js",
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "dev": "nuz dev --port 4001",
     "build": "nuz build",
