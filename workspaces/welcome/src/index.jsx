@@ -3,11 +3,15 @@ import React, { useState, useCallback } from 'react'
 import { useSelector } from 'react-redux'
 import dynamic from 'next/dynamic'
 
+import memoize from 'memoize-one';
+
 const Box = dynamic(() => nuz.resolve('@nuz-demo/box'), {
   nuz: true,
 })
 
 import styles from './welcome.module.css'
+
+console.log({ memoize });
 
 const Module = () => {
   const [component, setComponent] = useState(null)
@@ -17,7 +21,7 @@ const Module = () => {
     if (!component) {
       (async function() {
         const loaded = await import(
-          /* webpackChunkName: "secret" */ './components/Secret'
+          './components/Secret'
         )
         setComponent(loaded.default)
       })()

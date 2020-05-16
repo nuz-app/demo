@@ -1,6 +1,6 @@
 {
   "name": "@nuz-demo/navigation",
-  "version": "0.1.1",
+  "version": "0.1.16",
   "source": "src/index.jsx",
   "main": "dist/index.js",
   "scripts": {
