@@ -8,13 +8,13 @@ import dynamic from 'next/dynamic'
 
 import { withRedux } from '../lib/redux'
 
-const { App } = nuz.reactHelpersFactory({
-  React,
-  ReactDOM,
+const { App } = nuz.reactIntegrate({
+  'react': React,
+  'react-dom': ReactDOM,
 })
 
 nuz.bootstrap({
-  registry: 'nuz-demo',
+  compose: 'nuz-demo',
   ssr: true,
   // Link only run on development mode
   linked: {
