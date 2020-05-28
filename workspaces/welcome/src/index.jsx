@@ -1,15 +1,12 @@
 import * as nuz from '@nuz/core'
 import React, { useState, useCallback } from 'react'
 import { useSelector } from 'react-redux'
-import dynamic from 'next/dynamic'
 
 import memoize from 'memoize-one';
 
-const Box = dynamic(() => nuz.resolve('@nuz-demo/box'), {
-  nuz: true,
-})
-
 import styles from './welcome.module.css'
+
+const Box = nuz.Loadable('@nuz-demo/box');
 
 console.log({ memoize });
 
@@ -34,7 +31,7 @@ const Module = () => {
         <div className={styles.card}>
           <h3 className={styles.name}>Hello, {name}.</h3>
           <h4 className={styles.description}>
-            Welcome to @nuz-demo. This is module @nuz-demo/welcome
+            Welcome to @nuz-demo. This is module @nuz-demo/welcome.
           </h4>
           {component || (
             <div onClick={loadComponent} className={styles.button}>

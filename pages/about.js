@@ -4,16 +4,18 @@ import React from 'react'
 import Layout from '../components/Layout'
 
 const Navigation = nuz.Loadable('@nuz-demo/navigation')
-const Welcome = nuz.Loadable('@nuz-demo/welcome')
 
 const IndexPage = () => {
   return (
-    <Layout title="Home - Nuz Demo">
+    <Layout title="About - Nuz Demo">
       <header>
         <Navigation />
       </header>
       <main>
-        <Welcome />
+        <br />
+        <center>
+          <h1>About.</h1>
+        </center>
       </main>
     </Layout>
   )

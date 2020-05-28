@@ -10,10 +10,9 @@
     "serve": "nuz serve --port 4001"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@nuz/cli": "latest"
-  },
+  "devDependencies": {},
   "peerDependencies": {
+    "@nuz/cli": "latest",
     "@nuz/core": "*",
     "react": "*",
     "react-dom": "*",

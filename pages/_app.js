@@ -3,15 +3,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import * as ReactRedux from 'react-redux'
 import Link from 'next/link'
-import Head from 'next/head'
 import dynamic from 'next/dynamic'
 
 import { withRedux } from '../lib/redux'
 
-const { App } = nuz.reactIntegrate({
-  'react': React,
-  'react-dom': ReactDOM,
-})
+nuz.reactIntegrate()
 
 nuz.bootstrap({
   compose: 'nuz-demo',
@@ -35,9 +31,7 @@ nuz.bootstrap({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <App injectHead={Head}>
-      <Component {...pageProps} />
-    </App>
+    <Component {...pageProps} />
   )
 }
 
