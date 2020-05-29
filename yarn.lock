@@ -955,13 +955,13 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.4.0.tgz#6f8732e1909fb12f6dca8a82b7fc4b79c6c8cfcd"
   integrity sha512-AaEC/diS2two2JLsEItGhuAux8UfPo0o34/7l1SIw0t4SYunUYJsxM/Y55OR2ljiVn9ffKR1n1U9IEQhsK80jw==
 
-"@nuz/core@^1.0.0-beta.32":
-  version "1.0.0-beta.32"
-  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.32.tgz#571d645e8ff3e65d8e9e3d622854a88507621406"
-  integrity sha512-reFSTt0hKnzb3qdtrj8PcYwMxQnvaQC6Mu+r2M+fgKzVN+s70SnY121w+l+6GlBkMwGwBEUBckeTpC547Qwgnw==
+"@nuz/core@^1.0.0-beta.35":
+  version "1.0.0-beta.35"
+  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.35.tgz#744fea7ddf76cf0c2a9e4a0d3678a90da8bd5f91"
+  integrity sha512-xaxyvvC00FwsSHAhSRhK7vTaUBGjYk9esCymext44CP5pHzaOKWpsCUyZonTibPt6SI4KyfidVxZ2R5YFjqz5g==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.32"
-    "@nuz/utils" "^1.0.0-beta.32"
+    "@nuz/shared" "^1.0.0-beta.35"
+    "@nuz/utils" "^1.0.0-beta.35"
     abort-controller "^3.0.0"
     cross-fetch "^3.0.4"
     lru-cache "^5.1.1"
@@ -973,19 +973,19 @@
     bufferutil "^4.0.1"
     utf-8-validate "^5.0.2"
 
-"@nuz/shared@^1.0.0-beta.32":
-  version "1.0.0-beta.32"
-  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.32.tgz#25c111c787e56c3abfe71ab3357d024cba2462aa"
-  integrity sha512-M9XNpeivmDvUN6j0BtCGG3zt1bCSBKa3vCHEEQIGx92HU3GOg5F1SxZiuaauEqCFEk+YPu27QtB0kApbFupxGw==
+"@nuz/shared@^1.0.0-beta.35":
+  version "1.0.0-beta.35"
+  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.35.tgz#d133a32871f4f8d7f6fc4757d27528fd9f6f976a"
+  integrity sha512-+ptc3sBOOEUbt37AX4rn3i9/rs9/q9qfLIVn/uQpM3XcorHoXPe3DElpTrhrOyhWwQqX75AQpYtXVlOMSrwAng==
   dependencies:
     tslib "^1.11.1"
 
-"@nuz/utils@^1.0.0-beta.32":
-  version "1.0.0-beta.32"
-  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.32.tgz#d5e5bcea160c4d43f23dc02b80cbd58909d28118"
-  integrity sha512-XStpVE4DZ06kA+lDGHNnn5Y1sUa46ncoXBhH8utA17JqzUovIZ3ZTLUgQ/4FriukIHtN/g7PSJ8xM9HpQQmm9w==
+"@nuz/utils@^1.0.0-beta.35":
+  version "1.0.0-beta.35"
+  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.35.tgz#4e3accc05570f87d73f41cb26f4951aae51586ab"
+  integrity sha512-iSaq0pUGWDEPR1PnzDmYBBXibDi+Mn5ttaNVAvxD3EdssGrE3h16KShQ3OVZuRT9WOd2452w1ku6MXKhOT7GBg==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.32"
+    "@nuz/shared" "^1.0.0-beta.35"
     axios "^0.19.2"
     qs "^6.9.4"
     selfsigned "^1.10.7"

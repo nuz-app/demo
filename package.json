@@ -9,7 +9,7 @@
     "workspaces": "nuz dev --workspaces './workspaces/*' --port 4000"
   },
   "dependencies": {
-    "@nuz/core": "^1.0.0-beta.32",
+    "@nuz/core": "^1.0.0-beta.35",
     "next": "^9.4.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
