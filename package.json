@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nuz/core": "^1.0.0-beta.41",
-    "next": "^9.4.0",
+    "next": "^9.4.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
