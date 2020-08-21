@@ -1,6 +1,6 @@
 const nuz = require('@nuz/core')
 
-const { withNuz } = nuz.nextIntegrate({
+const { withNuz } = nuz.next.integrate({
   require,
 })
 
