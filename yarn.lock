@@ -1532,10 +1532,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@nuz/cli@^1.0.0-beta.62":
-  version "1.0.0-beta.62"
-  resolved "https://registry.yarnpkg.com/@nuz/cli/-/cli-1.0.0-beta.62.tgz#921aaa9915734aceb50035cac616b434e9924b46"
-  integrity sha512-2IG8VYUTfiIasE6dGB9CfOE2iV6sDcEChHT8/qt2BGzugLr9NF5Ov9tkO3Unf9OmbYPHwvy5/jVh+fRmqigt8w==
+"@nuz/cli@^1.0.0-beta.63":
+  version "1.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@nuz/cli/-/cli-1.0.0-beta.63.tgz#ed4a823f88a9a431ae1c7ff6b572152322af5bb5"
+  integrity sha512-MA4mphgtp7W0ZqwXCGnjCN4LevhTERyGhRLvciGE0lbn9lYrOwA8kcF3qMNA+rH2r8pR7P0puYdjpe3pzFw1Qw==
   dependencies:
     "@babel/cli" "^7.11.6"
     "@babel/core" "^7.11.6"
@@ -1549,8 +1549,8 @@
     "@babel/preset-env" "^7.11.5"
     "@babel/preset-react" "^7.10.4"
     "@babel/preset-typescript" "^7.10.4"
-    "@nuz/shared" "^1.0.0-beta.62"
-    "@nuz/utils" "^1.0.0-beta.62"
+    "@nuz/shared" "^1.0.0-beta.63"
+    "@nuz/utils" "^1.0.0-beta.63"
     "@svgr/webpack" "^5.4.0"
     babel-loader "^8.1.0"
     babel-plugin-dynamic-import-node "^2.3.3"
@@ -1610,13 +1610,13 @@
     webpackbar "^4.0.0"
     yargs "^16.0.3"
 
-"@nuz/core@^1.0.0-beta.62":
-  version "1.0.0-beta.62"
-  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.62.tgz#9cd1e3d4c9f542b93525668007064778f560b31e"
-  integrity sha512-p+bi7zSZwV0Js2cCfWin3hKDxW6u54J+CGanw+Ra90cxVII5xX9kDS/jiQKhq/OKAmbFjs8x2nC6XUDX3zZyNA==
+"@nuz/core@^1.0.0-beta.63":
+  version "1.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@nuz/core/-/core-1.0.0-beta.63.tgz#917e7489dbfd5d99d525d3e07c6eb294ce21c21d"
+  integrity sha512-68D186RJCsHL9/crvj9AXjlJKi+OYgkpm517oydmGDfKR09BkaxaZkGpN94T5rssKQZK+xg+n5G/nSfQ4IttEQ==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.62"
-    "@nuz/utils" "^1.0.0-beta.62"
+    "@nuz/shared" "^1.0.0-beta.63"
+    "@nuz/utils" "^1.0.0-beta.63"
     abort-controller "^3.0.0"
     lru-cache "^6.0.0"
     node-fetch "^2.6.1"
@@ -1629,19 +1629,19 @@
     socket.io-client "^2.3.0"
     utf-8-validate "^5.0.2"
 
-"@nuz/shared@^1.0.0-beta.62":
-  version "1.0.0-beta.62"
-  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.62.tgz#0755180df7df27bc4d4aab876b9330d86ac18ffb"
-  integrity sha512-LXpRzRkQW4YeRTXnbnNtjZRLvdVlNyQo7GKC0L94WU0kPEr/JMfOQbV82KkWk4jeROqYi5fadF8/pJViEQylnA==
+"@nuz/shared@^1.0.0-beta.63":
+  version "1.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@nuz/shared/-/shared-1.0.0-beta.63.tgz#ac816e4fd4f5963f545e0b97fd46ea898a0a3c09"
+  integrity sha512-ZtoTRyHrzU/0Wr8C03c7WMYE6B5oc1UQSSUjEkr/V2pY9OI7eljkU1B7eeU0kum1Hqh78t+IXBU4A34vbr9r6Q==
   dependencies:
     tslib "^2.0.1"
 
-"@nuz/utils@^1.0.0-beta.62":
-  version "1.0.0-beta.62"
-  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.62.tgz#470cd1920516ede0c2326acb1a9960772c709f2d"
-  integrity sha512-So32ZrZLxAt94MD+u2zQb0Q8r+45REDmQrWqsSIcCadwh4vzPUBD1hTCeiAOZE/LNnniBWqz6uemEoJ/CC40FQ==
+"@nuz/utils@^1.0.0-beta.63":
+  version "1.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@nuz/utils/-/utils-1.0.0-beta.63.tgz#fd9e2138fed9a6dbd018de318e75ad78e31bf825"
+  integrity sha512-u7IQAxLL/sq2Wtg5KejBiyEydvAEA41TWwSUm055BR+9+TbuNJzRThv0y5I2fROrZ4lq2OR7jEVf00ojr4h6Tg==
   dependencies:
-    "@nuz/shared" "^1.0.0-beta.62"
+    "@nuz/shared" "^1.0.0-beta.63"
     axios "^0.20.0"
     qs "^6.9.4"
     selfsigned "^1.10.7"
