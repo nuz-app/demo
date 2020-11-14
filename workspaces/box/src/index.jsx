@@ -11,7 +11,7 @@ const Module = () => {
         <div className={styles.item} />
       </div>
       <span className={styles.description}>
-        @nuz-demo/box (called in @nuz-demo/welcome)
+        @nuz-demo/box (called in @nuz-demo/welcome)...
       </span>
     </div>
   );
