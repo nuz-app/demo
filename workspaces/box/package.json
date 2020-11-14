@@ -1,6 +1,6 @@
 {
   "name": "@nuz-demo/box",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "source": "src/index.jsx",
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",
